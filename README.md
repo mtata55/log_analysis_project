@@ -1,6 +1,6 @@
 # Log Analysis Project
 
-##Description
+## Description
 Source code for running queries on a PostgreSQL database using the psycopg2 module for the Udacity Full Stack Web Developer Project. 
 
 The database is for a fictional news website and has 3 tables as follows:
@@ -15,14 +15,14 @@ The project requirements are to answer the following questions:
 * Who are the most popular article authors of all time?
 * On which days did more than 1% of requests lead to errors? 
 
-##Contents:
+## Contents:
 * README.md (This document)
 * newsdata.py (Python code) 
 * Vagrantfile (To configure environment)
 * views_script.sql (Script to create table views used for query. Optional)
 
 
-##Prerequisites:
+## Prerequisites:
 * Python 
 * PostgreSQL
 * newsdata.sql (SQL file to create database. Not included as size > 100 MB)
@@ -33,7 +33,7 @@ Note: This project is run as per Udacity requirements using Vagrant + VirtualBox
 
 You can learn more about and download [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/) from the links.
 
-##Getting Started:
+## Getting Started:
 The instructions below assume that you have setup the environment using the Vagrantfile and have a virtual machine running.
 
 Copy newsdata.py and newsdata.sql to the /vagrant folder of your local machine.
@@ -49,7 +49,7 @@ Connect to the news database using the following command:
 
     psql -d news 
 
-###Create 2 additional views by running the following commands: 
+### Create 2 additional views by running the following commands: 
 
 ```sql
 CREATE VIEW errors AS
@@ -77,10 +77,10 @@ These views are used to run the last query to compute the error percentage.
 Run newsdata.py in the terminal. Output will be printed to the terminal as the question followed by the result of the query to answer the question.
 
 
-**Installation :**
+## Installation :
 Clone the repository or unzip the folder contents on to the /vagrant folder your local drive / Virtual Machine.
 
 
-**Acknowledgements**
+## Acknowledgements
 Udacity 
 
